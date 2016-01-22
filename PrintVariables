@@ -1,0 +1,27 @@
+#include <stdio.h>
+
+/* Print Variables - A program by Aiden Nielsen written in C 1/21/16 */
+
+int main (void)
+{
+	/* Declaring Variables */
+	float thing;
+	int posint;
+	int negint;
+	int foolead;
+	int hexa;
+	
+	/* Assigning values to Variables */
+	thing=32.6;
+	posint=5;
+	negint=-3;
+	foolead=342;
+	hexa=78;
+	
+	/* Displaying Variables on screen */
+	printf("Float: %4.1f \n", thing);
+	printf("Positive Integer: %d \n", posint);
+	printf("Negative Integer: %d \n", negint);
+	printf("Positive Integer with leading zeros: %05d \n", foolead);
+	printf("Positive Integer Hexadecimal: %04x \n", hexa);
+}
